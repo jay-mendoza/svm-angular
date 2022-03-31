@@ -1,0 +1,18 @@
+
+<p *ngIf="projects == null; else elseBlock"><em>Loading...</em></p>
+<ng-template #elseBlock>
+    <section>
+        <h1>web projects</h1>
+        <p>
+            Here are some of the web projects I have worked on. My professional works have a <span class="mdi mdi-professional-hexagon" style="font-size:20px;"></span> mark on the title. My personal projects, including this page, are self-hosted on my small web server (so please, do not DDoS me).
+        </p>
+        <p>I also make non-web Windows apps (WPF). These are small personal tools like batch file renamer, notes, power control, and backup apps. I even converted one of them to a web app (Search-Prime). The projects below are only web apps.</p>
+    </section>
+    <section *ngFor="let project of projects;">
+            <p>
+                <app-hero-link            
+                    [project]="project">
+                </app-hero-link>
+            </p>
+    </section>
+</ng-template>

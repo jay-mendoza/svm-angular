@@ -1,0 +1,12 @@
+<article class="project">
+    <a href="{{project.linkHref}}" target="_blank">
+        <div style="background-image: url({{project.imageUrl}})">
+        </div>
+    </a>
+    <div>
+        <header>{{project.title}} <span [hidden]="!project.isPro" class="mdi mdi-professional-hexagon"></span></header>
+        <div>{{project.description}}</div>
+        <a href="{{project.linkHref}}" target="_blank">{{project.linkHref}}</a>
+    </div>
+    <aside>{{project.devComment}}</aside>
+</article>

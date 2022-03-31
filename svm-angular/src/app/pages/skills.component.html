@@ -1,0 +1,51 @@
+<section>
+    <h1>technical skills <span class="mdi mdi-code-tags-check"></span></h1>
+    <div class="p">
+        <ul class="skills">
+            <li *ngIf="skills == null; else elseSkillsBlock">Loading...</li>
+            <ng-template #elseSkillsBlock>
+                <li *ngFor="let skill of skills;">
+                    <span class="icon" style="background-image:url('{{skill.imageUrl}}');"></span>
+                    <span class="label">{{skill.name}}</span>
+                </li>
+            </ng-template>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h1>certifications <span class="mdi mdi-certificate"></span></h1>
+    <div class="p">
+        <ul class="certificates">
+            
+            <li *ngIf="certificates == null; else elseCertsBlock">Loading...</li>
+            <ng-template #elseCertsBlock>
+                <li *ngFor="let certificate of certificates;">
+                    <span style="background-image:url('assets/images/certificates/{{certificate}}.png');"></span>
+                </li>
+            </ng-template>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h1>education <span class="mdi mdi-school"></span></h1>
+    <div class="p">
+        <article class="education">
+            <div>
+                <h1>2007 – 2011</h1>
+                <div>
+                    <span>Masters&nbsp;Science&nbsp;in Computer&nbsp;Engineering</span>
+                    <span>Mapúa Institute of Technology</span>
+                </div>
+            </div>
+            <div>
+                <h1>2002 – 2006<span classs="mdi mdi-school"></span></h1>
+                <div>
+                    <span>Bachelor&nbsp;Science&nbsp;in Computer&nbsp;Engineering</span>
+                    <span>Mapúa Institute of Technology</span>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
