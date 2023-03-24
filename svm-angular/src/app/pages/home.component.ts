@@ -14,9 +14,9 @@ export class HomeComponent {
    */
   project: ProjectModel = {
     title: 'Jay Mendoza | LinkedIn',
-    description: 'This is just a link to my LinkedIn profile page. My LinkedIn profile ID is "STATICVOIDMAIN".',
+    description: 'This is just a link to my LinkedIn profile page',
     imageUrl: 'assets/images/linkedin-profile.jpg',
-    linkHref: 'https://www.linkedin.com/in/staticvoidmain/',
+    linkHref: 'https://linkedin.staticvoidmain.dev/',
     isPro: false,
     devComment: ''
   };  
