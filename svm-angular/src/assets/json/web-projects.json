@@ -13,7 +13,7 @@
     "linkHref": "https://www.eatingwell.com/",
     "imageUrl": "https://images.media-allrecipes.com/images/88400.jpg",
     "isPro": true,
-    "devComment": "The web app is written in ASP.Net MVC and AngularJS (SASS for stylesheet). I worked mostly on the front-end. Everything you see on the home page (currently) is my work. Update: Not anymore. So sad. Tip: Use waybackmachine and go to back 2020."
+    "devComment": "The web app is written in ASP.Net MVC and AngularJS (SASS for stylesheet). I worked mostly on the front-end. Everything you see on the home page (currently) is my work. Update: Not anymore. So sad. Tip: Use waybackmachine and go back to 2020."
   },
   {
     "title": "New Ford Tech",

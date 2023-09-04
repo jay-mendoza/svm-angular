@@ -58,11 +58,12 @@ article.project {
         article.project > div > a {
             text-transform: uppercase;
             font-size: 14px;
-            box-shadow: 0 0 3px 1px #30AAFC;
-            border-radius: 20px;
+            box-shadow: 0 2px 3px 1px #30AAFC;
+            border-radius: 0 0 20px 20px;
             text-overflow: clip;
             text-overflow: ellipsis ellipsis;
             text-overflow: ellipsis " [..]";
+            text-align: center;
         }
 
         article.project > div > header {
